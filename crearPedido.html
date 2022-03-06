@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>PASTELERIA LAUNCH</title>
+</head>
+
+<body>
+
+        <header class="titulo">
+
+            <a href="pasteleriaIndex.html">
+                <img src="logo.png" alt="Logo Pastelería" width=150px>
+            </a>
+
+            <a href="pasteleriaIndex.html">
+                <h1>Pastelería Kayla </h1>    
+            </a>
+            
+            
+            <nav>
+                <ul>
+                    <li><a href="crearPedido.html">Arma tu pastel</a> </li>
+                    <li><a href="pastelerStock.html">Menu Pastelero </a> </li>
+                </ul>
+            </nav>
+        </header>
+        
+    
+
+    <h2>Realiza tu pedido aquí</h2>
+    <h2>Llena el formulario que se presenta a continuación: </h2>
+    <form>
+        <div>
+            <h3>Datos generales</h3>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <br>
+
+            <label for="telefono">Número de teléfono:   </label>
+            <input type="tel" id="telefono" name="telefono">
+            <br>
+            <br>
+
+            <label for="email">Email: </label>  
+            <input type="mail" id="email" name="email">
+            <br>
+            <br>
+            <label for="descrip">Escribe la descripción general del pastel: </label>
+            <br>
+            <br>
+            <textarea id="descrip" name="descrip" rows="4" cols="30">
+            </textarea>
+        </div>
+        
+        <div>
+    
+            <h3>Elige el sabor del pastel:</h3>
+
+            <label for ="choc">Chocolate</label>
+            <input type="radio" id="choc" name="sabor" value="choc" checked>
+    
+            <label for ="moka">Moka</label>
+            <input type="radio" id="moka" name="sabor" value="moka" >
+      
+            <label for ="zana">Zanahoria</label>
+            <input type="radio" id="zana" name="sabor" value="zana" >
+
+            <label for ="tres">Tres leches</label>
+            <input type="radio" id="tres" name="sabor" value="tres" >
+
+            <label for ="nuez">Nuez</label>
+            <input type="radio" id="nuez" name="sabor" value="nuez" >
+    
+            <label for ="queso">Pay de queso</label>
+            <input type="radio" id="queso" name="sabor" value="queso" >
+
+    
+        </div>
+
+       <div>
+        <h3>Elige los adornos y decoración:</h3>
+
+        <input type="checkbox" id="check1" value="velasenc">Vela sencilla</label><br>
+        <input type="checkbox" id="check2" value="velanum">Vela número</label><br>
+        <input type="checkbox" id="check3" value="velabeng">Vela bengala</label><br>
+        <input type="checkbox" id="check4" value="flores">Flores Naturales</label><br>
+        <input type="checkbox" id="check5" value="munec">Muñecas</label><br>
+        <input type="checkbox" id="check6" value="cars">Carrito</label><br>
+        <input type="checkbox" id="check7" value="super">Super Héroe</label><br>
+        <input type="checkbox" id="check8" value="perso">Personalizada (poner en descripción)</label><br>
+        <br>
+        <input type="reset" value="Borrar Campos    " class="boton"/>
+        <br>
+        <input type="submit" class="boton">
+       </div>
+  
+    </form>
+    
+    <footer>
+        <h3>
+            Hidalgo #123, Col. Independencia
+        </h3>
+        <p>3339-0000 Horario L-D: 9am a 8pm</p>
+        Creado por Alberto Garcia para LaunchX. Marzo 2022
+    </footer>
+
+</body>
+
+</html>
